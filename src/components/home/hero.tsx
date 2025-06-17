@@ -24,9 +24,9 @@ function Hero() {
                     
                     <Box maxWidth={"sm"}>
                     <Typography variant="body1" component="p" marginBottom={2} boxSizing={"inherit"}>
-                    I am a software-enginner, specializing in web-backend development. Currently, working 
-                    with <Link href="#" onClick={() => window.open("https://junkielabs.in/", '_blank', 'noopener,noreferrer')} underline="none" sx={linkSx}>{' Junkielabs '}</Link>, to 
-                    create open source solutions, facillitating developers, designers and creators for collaboration on wide range of project ideas. 
+                    I craft fast, reliable backend systems that power modern web applications. 
+                    My work blends performance-focused engineering with clean architecture. 
+                    I’ve contributed to open-source projects, enterprise-grade APIs, and collaborative developer platforms — and I’m always looking for what’s next.
                     </Typography>
                     </Box>
                     <Box sx={{ 

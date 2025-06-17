@@ -3,13 +3,18 @@ import TypeScript from '../../../images/typescript.svg';
 import Django from '../../../images/django.svg';
 import Mongo from '../../../images/mongodb.svg';
 import Python from '../../../images/python.svg';
-import Flask from '../../../images/flask.svg';
+import Golang from '../../../images/golang.svg';
+import Redis from '../../../images/redis.svg';
 import AWS from '../../../images/aws.svg';
 import DynamoDb from '../../../images/dynamodb.svg';
 import React from '../../../images/react.svg';
 import Docker from '../../../images/docker.svg';
 import Google from '../../../images/googlecloud.svg';
 import Fast from '../../../images/fastapi.svg';
+import Kubernetes from '../../../images/kubernetes.svg';
+import PostgreSQL from '../../../images/postgresql.svg';
+import Clickhouse from '../../../images/clickhouse.svg';
+import Kafka from '../../../images/kafka.svg';
 
 
 export const skillList = [
@@ -33,8 +38,8 @@ export const skillList = [
     },
     {
         key: 4,
-        skill: "Flask",
-        logo: Flask,
+        skill: "Golang",
+        logo: Golang,
         link: "https://flask.palletsprojects.com/en/2.2.x/"
     },
     {
@@ -78,5 +83,35 @@ export const skillList = [
         skill: "GCP",
         logo: Google,
         link: "https://cloud.google.com/"
+    },
+    {
+        key: 12,
+        skill: "Kubernetes",
+        logo: Kubernetes,
+        link: "https://kubernetes.io/"
+    },
+    {
+        key: 13,
+        skill: "PostgreSQL",
+        logo: PostgreSQL,
+        link: "https://www.postgresql.org/"
+    },
+    {
+        key: 14,
+        skill: "Clickhouse",
+        logo: Clickhouse,
+        link: "https://clickhouse.com/"
+    },
+    {
+        key: 15,
+        skill: "Redis",
+        logo: Redis,
+        link: "https://redis.io/"
+    },
+    {
+        key: 16,
+        skill: "Kafka",
+        logo: Kafka,
+        link: "https://kafka.apache.org/"
     }
 ]
