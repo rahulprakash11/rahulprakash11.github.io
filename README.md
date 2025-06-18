@@ -43,5 +43,14 @@ $ cd to/project
 $ npm install
 $ npm start
 ```
+
+## To Deploy on Github-Pages
+
+```bash
+$ npm run build/builwin
+$ git add .
+$ git commit -m "update message"
+$ git push
+```
 Design inspired from:
 > https://brittanychiang.com/
